@@ -1,0 +1,48 @@
+[
+  {
+    "tool": "flashcard_generator",
+    "chat_history": [
+      {"role": "user", "content": "I'm struggling with calculus derivatives and need some practice problems"}
+    ],
+    "current_message": "I'm struggling with calculus derivatives and need some practice problems",
+    "user_info": {"preferred_language": "en", "level": 2, "emotional_state": "confused"},
+    "ground_truth": {
+      "source_text": "I'm struggling with calculus derivatives and need some practice problems",
+      "card_style": "qa",
+      "num_cards": 5,
+      "difficulty": "easy",
+      "language": "en"
+    }
+  },
+  {
+    "tool": "note_maker",
+    "chat_history": [
+      {"role": "user", "content": "Make notes on the water cycle in an outline format — include analogies"}
+    ],
+    "current_message": "Make notes on the water cycle in an outline format — include analogies",
+    "user_info": {"preferred_language": "en", "level": 5, "emotional_state": "focused", "teaching_style": "visual"},
+    "ground_truth": {
+      "source_text": "Make notes on the water cycle in an outline format — include analogies",
+      "note_style": "outline",
+      "target_length": "medium",
+      "language": "en"
+    }
+  },
+  {
+    "tool": "concept_explainer",
+    "chat_history": [
+      {"role": "user", "content": "Explain photosynthesis at an intermediate level. Give 2 practice questions."}
+    ],
+    "current_message": "Explain photosynthesis at an intermediate level. Give 2 practice questions.",
+    "user_info": {"preferred_language": "en", "level": 4, "emotional_state": "curious"},
+    "ground_truth": {
+      "concept": "photosynthesis at an intermediate level",
+      "prior_knowledge": "intermediate",
+      "explanation_style": "step_by_step",
+      "examples_count": 2,
+      "include_quiz": true,
+      "misconceptions": true,
+      "language": "en"
+    }
+  }
+]
