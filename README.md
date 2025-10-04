@@ -441,6 +441,5 @@ Edit src/app/models/schemas.py and align fields/enums per the PDF. The rest of t
 6. Ensure all tests pass with `pytest`
 
 
-✨ **Scholaris provides a production-ready foundation for AI-powered educational tools. With 98% test coverage, comprehensive error handling, and a flexible architecture, it's the guiding star for educational AI deployment.** ✨
 
 
